@@ -18,7 +18,7 @@ const Router = () => {
         <Route path='/Products' element={<Product/>}/>
         <Route path='/AddProducts' element={<AddProducts/>}/>
 
-    </Routes>
+    </Routes> 
     </>
   )
 }
