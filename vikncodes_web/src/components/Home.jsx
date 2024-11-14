@@ -50,8 +50,6 @@ const Home = () => {
           </Link>
         </div>
       )}
-
-      {/* Logout button (top right) */}
       {authUser && (
         <button
           onClick={onLogout}

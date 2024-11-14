@@ -75,17 +75,8 @@ const Product = () => {
     setRemoveStockModalOpen(false);
   };
 
-  // Logout function
-  const handleLogout = () => {
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
-    toast.info('You are logged out');
-    navigate('/login'); // Assuming /login is your login page route
-  };
-
-  // Navigate to the home page
   const handleGoHome = () => {
-    navigate('/'); // Assuming / is your home page route
+    navigate('/');
   };
 
   return (
@@ -94,7 +85,6 @@ const Product = () => {
         <ToastContainer />
       </div>
       <div className="bg-gray-900 p-8 rounded-lg shadow-xl max-w-full w-full">
-        {/* Top Bar: Home and Logout Buttons */}
         <div className="absolute top-4 left-4 flex space-x-4">
           <button
             onClick={handleGoHome}
@@ -115,7 +105,6 @@ const Product = () => {
       )}
         </div>
 
-        {/* Main Content */}
         <h2 className="text-3xl font-extrabold text-center text-indigo-500 mb-8">Product Page</h2>
 
         <div className="mb-8 text-center">

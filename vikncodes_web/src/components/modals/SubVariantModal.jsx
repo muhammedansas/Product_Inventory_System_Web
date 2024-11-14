@@ -74,8 +74,6 @@ const SubVariantModal = ({subvariantModalOpen,handleSubvariantModalClose,handleS
           required
         />
       </div>
-      
-      {/* Add Stock Quantity Field */}
       <div className="mb-4">
         <label className="block text-sm font-medium text-gray-300">
           Stock Quantity

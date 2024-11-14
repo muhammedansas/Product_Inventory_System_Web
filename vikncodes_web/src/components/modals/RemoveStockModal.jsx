@@ -23,7 +23,6 @@ const RemoveStockModal = ({removeStockModalOpen,handleRemoveStockModalClose,sele
 
           <form onSubmit={handleRemoveStock}>
           <div className="mb-4">
-            {/* Display the Subvariant Name */}
             <label className="block text-sm font-medium text-gray-300">Subvariant Name</label>
             <input
               type="text"
@@ -35,7 +34,6 @@ const RemoveStockModal = ({removeStockModalOpen,handleRemoveStockModalClose,sele
           </div>
 
           <div className="mb-4">
-            {/* Display the Current Stock */}
             <label className="block text-sm font-medium text-gray-300">Current Stock</label>
             <input
               type="text"
@@ -46,7 +44,6 @@ const RemoveStockModal = ({removeStockModalOpen,handleRemoveStockModalClose,sele
           </div>
 
           <div className="mb-4">
-            {/* Stock Count Input */}
             <label className="block text-sm font-medium text-gray-300">Remove Stock Count</label>
             <input
               type="number"

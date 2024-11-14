@@ -20,8 +20,6 @@ const Signin = () => {
       <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-96">
         <h2 className="text-3xl font-bold text-center text-indigo-500 mb-6">Sign In</h2>
         <form onSubmit={handleSubmit} className="space-y-6">
-          
-          {/* Email */}
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-300">Email</label>
             <input
@@ -32,8 +30,6 @@ const Signin = () => {
               required
             />
           </div>
-
-          {/* Password */}
           <div>
             <label htmlFor="password" className="block text-sm font-medium text-gray-300">Password</label>
             <input
