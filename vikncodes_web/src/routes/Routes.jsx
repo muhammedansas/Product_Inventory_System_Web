@@ -11,13 +11,11 @@ const Router = () => {
   return (
     <>
     <Routes>
-        
         <Route path='/Signin' element={<Signin/>}/>
         <Route path='' element={<Home/>}/>
         <Route path='/Signup' element={<Signup/>}/>
         <Route path='/Products' element={<Product/>}/>
         <Route path='/AddProducts' element={<AddProducts/>}/>
-
     </Routes> 
     </>
   )
